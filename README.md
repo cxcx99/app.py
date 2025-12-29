@@ -9,26 +9,18 @@ score_datascientist = 0
 
 # Soal 1
 st.subheader("Jenis pelajaran apa yang kamu sukai di sekolah")
-q1 = st.radio("1. Pilih satu:", [
-    "Ilmu eksakta e.g Matematika, Fisika",
-    "Pelajaran yang mengedepankan kreativitas, e.g seni",
-    "Suka keduanya"
+q1 = st.radio("1. Pilih satu:", ["Ilmu eksakta e.g Matematika, Fisika", "Pelajaran yang mengedepankan kreativitas, e.g seni", "Suka keduanya"
 ], key="q1")
 
 # Soal 2
 st.subheader("Mana yang menurut kamu lebih penting dalam sebuah aplikasi")
-q2 = st.radio("Pilih satu:", [
-    "Fungsionalitas fitur yang berjalan baik",
-    "Tampilan aplikasi yang menarik dan mudah dipahami",
-    "Akurasi informasi dan data yang disajikan"
+q2 = st.radio("Pilih satu:", ["Fungsionalitas fitur yang berjalan baik", "Tampilan aplikasi yang menarik dan mudah dipahami", "Akurasi informasi dan data yang disajikan"
 ], key="q2")
 
 # Soal 3
 st.subheader("Kamu menemui seseorang dalam masalah. Apa yang kamu lakukan untuk menyelesaikan masalah tersebut")
 q3 = st.radio("Pilih satu:", [
-    "Bertanya kepada orang lain atau komunitas yang pernah mengalami kendala serupa untuk mengetahui penyelesaian",
-    "Meminta orang tersebut untuk menceritakan kembali masalahnya kepada saya agar saya dapat menarik solusi yang sesuai",
-    "Mengumpulkan informasi dari berbagai sumber terkait masalah tersebut dan menarik solusi"
+    "Bertanya kepada orang lain atau komunitas yang pernah mengalami kendala serupa untuk mengetahui penyelesaian", "Meminta orang tersebut untuk menceritakan kembali masalahnya kepada saya agar saya dapat menarik solusi yang sesuai", "Mengumpulkan informasi dari berbagai sumber terkait masalah tersebut dan menarik solusi"
 ], key="q3")
 
 if st.button("Submit"):
